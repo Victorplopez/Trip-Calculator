@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mileage Cost</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-md-4">
+                    <h1 class="display-4">Miles</h1>
+                    <form>
+                        <div class="form-group">
+                            <input id="milesInput" type="number" class="form-control " placeholder="How many miles..">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <h1 class="display-4">MPG</h1>
+                    <form>
+                        <div class="form-group">
+                            <input id="mpgInput" type="number" class="form-control" placeholder="Vehicle MPG..">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <h1 class="display-4">Gas Price</h1>
+                    <form>
+                        <div class="form-group">
+                            <input id="gasInput" type="number" class="form-control" placeholder="Current Gas Price..">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div id="output">
+                <div class="jumbotron">
+                    <h1>Total Trip Cost:</h1>
+                    <div class="finalOutput" id="totalOutput"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/brains.js"></script>
+</body>
+
+</html>

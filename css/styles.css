@@ -1,0 +1,18 @@
+.container-fluid{
+    background-color: black;
+    height: 60em;
+}
+.container{
+    background-color:gray;
+    margin-top: 2em;
+}
+
+#totalOutput {
+    font-size: 10em;
+}
+
+@media (max-width: 30em){
+    #totalOutput {
+        font-size: 5em;
+    }
+}
